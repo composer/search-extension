@@ -8,6 +8,11 @@
       "strict_min_version": "55"
     }
   },
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "128": "images/icon-128.png"
+  },
   "chrome_settings_overrides": {
     "search_provider": {
       "name": "Packagist.org",
