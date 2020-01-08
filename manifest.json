@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Packagist.org search engine",
+  "description": "Adds a search engine that searches packagist.org",
+  "version": "1.0",
+  "applications": {
+    "gecko": {
+      "strict_min_version": "55"
+    }
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Packagist.org",
+      "search_url": "https://packagist.org/?query={searchTerms}",
+      "keyword": "p",
+      "favicon_url": "https://packagist.org/favicon.ico",
+      "is_default": false,
+      "encoding": "UTF-8"
+    }
+  }
+}
